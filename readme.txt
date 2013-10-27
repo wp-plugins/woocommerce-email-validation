@@ -1,10 +1,10 @@
 === WooCommerce Email Validation ===
 Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate/
-Tags: woocommerce, email, validation, checkout
+Tags: woocommerce, email, validation, checkout, smtp
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 1.2.1
+Tested up to: 3.7
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Adds a 'confirm email address' field to the WooCommerce checkout page.
 
 "WooCommerce Email Validation" is a small extension for WooCommerce that adds a 'confirm email address' field to the checkout page as a required field. This will ensure that your customers will enter a correct email address, making managing your orders far easier and more reliable. If a customer's email address does not match up then they will receive a standard validation error on the checkout page informing them that they need to make sure that their email addresses are the same.
 
-This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English (UK), German and Spanish.
+This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English (UK), German, Spanish and Dutch.
 
 == Usage ==
 
@@ -38,13 +38,17 @@ Installing "WooCommerce Email Validation" can be done either by searching for "W
 
 == Changelog ==
 
+= 1.2.2 =
+* 2013-10-27
+* [UPDATE] Adding Dutch translation (translation provided by Bryan Touw)
+
 = 1.2.1 =
 * 2013-07-12
-* [UPATE] Adding Spanish translation (translation provided by Marcelo Pedra)
+* [UPDATE] Adding Spanish translation (translation provided by Marcelo Pedra)
 
 = 1.2 =
 * 2013-07-11
-* [UPATE] Adding German translation (translation provided by Dietmar Hohn)
+* [UPDATE] Adding German translation (translation provided by Dietmar Hohn)
 
 = 1.1 =
 * 2013-05-24
@@ -55,6 +59,10 @@ Installing "WooCommerce Email Validation" can be done either by searching for "W
 * Initial release!
 
 == Upgrade Notice ==
+
+= 1.2.2 =
+* 2013-10-27
+* Adding Dutch translation (translation provided by Bryan Touw)
 
 = 1.2.1 =
 * 2013-07-12
