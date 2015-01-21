@@ -4,7 +4,7 @@ Donate link: http://www.hughlashbrooke.com/donate/
 Tags: woocommerce, email, validation, checkout
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Adds a 'confirm email address' field to the WooCommerce checkout page.
 
 "WooCommerce Email Validation" is a small extension for WooCommerce that adds a 'confirm email address' field to the checkout page as a required field. This will ensure that your customers will enter a correct email address, making managing your orders far easier and more reliable. If a customer's email address does not match up then they will receive a standard validation error on the checkout page informing them that they need to make sure that their email addresses are the same.
 
-This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese and Polish.
+This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese, Polish and Brazilian Portuguese.
 
 == Usage ==
 
@@ -37,6 +37,10 @@ Installing "WooCommerce Email Validation" can be done either by searching for "W
 1. The confirm email address field as it is displayed in the Twenty Twelve theme.
 
 == Changelog ==
+
+= 1.2.6 =
+* 2015-01-21
+* [UPDATE] Adding Brazilian Portuguese translation (translation provided by Samuel Costa)
 
 = 1.2.5 =
 * 2014-12-11
@@ -74,5 +78,5 @@ Installing "WooCommerce Email Validation" can be done either by searching for "W
 
 == Upgrade Notice ==
 
-= 1.2.5 =
-* Adding Polish translation (translation provided by Michał Dybczak)
+= 1.2.6 =
+* Adding Brazilian Portuguese translation (translation provided by Samuel Costa)
