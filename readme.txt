@@ -4,7 +4,7 @@ Donate link: http://www.hughlashbrooke.com/donate/
 Tags: woocommerce, email, validation, checkout
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Adds a 'confirm email address' field to the WooCommerce checkout page.
 
 "WooCommerce Email Validation" is a small extension for WooCommerce that adds a 'confirm email address' field to the checkout page as a required field. This will ensure that your customers will enter a correct email address, making managing your orders far easier and more reliable. If a customer's email address does not match up then they will receive a standard validation error on the checkout page informing them that they need to make sure that their email addresses are the same.
 
-This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese, Polish and Brazilian Portuguese.
+This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese, Polish, Brazilian Portuguese and Hungarian.
 
 Want to contribute? [Fork the GitHub repository](https://github.com/hlashbrooke/Woocommerce-Email-Validation).
 
@@ -42,6 +42,11 @@ This plugin adds the email confirmation to the checkout fields and does not affe
 
 == Changelog ==
 
+= 1.2.7 =
+* 2015-02-16
+* [UPDATE] Adding Hungarian translation (translation provided by Kornel Schwarcz)
+* [FIX] Adding WooCommerce 2.3.x compatibility
+
 = 1.2.6 =
 * 2015-01-21
 * [UPDATE] Adding Brazilian Portuguese translation (translation provided by Samuel Costa)
@@ -54,7 +59,7 @@ This plugin adds the email confirmation to the checkout fields and does not affe
 * 2014-10-13
 * [UPDATE] Adding 'woocommerce_confirm_email_field_class' filter so field class can be changed dynamically
 * [UPDATE] Adding Japanese translation (translation provided by Mako Kobayashi)
-* [FIX] - Adding billing email address as default field value for WooCommerce 2.2+
+* [FIX] Adding billing email address as default field value for WooCommerce 2.2+
 
 = 1.2.3 =
 * 2014-09-05
@@ -82,5 +87,5 @@ This plugin adds the email confirmation to the checkout fields and does not affe
 
 == Upgrade Notice ==
 
-= 1.2.6 =
-* Adding Brazilian Portuguese translation (translation provided by Samuel Costa)
+= 1.2.7 =
+* Adding Hungarian translation (translation provided by Kornel Schwarcz)
