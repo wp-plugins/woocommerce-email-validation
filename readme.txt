@@ -3,8 +3,8 @@ Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate/
 Tags: woocommerce, email, validation, checkout
 Requires at least: 4.0
-Tested up to: 4.1
-Stable tag: 1.2.7
+Tested up to: 4.2.2
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Adds a 'confirm email address' field to the WooCommerce checkout page.
 
 "WooCommerce Email Validation" is a small extension for WooCommerce that adds a 'confirm email address' field to the checkout page as a required field. This will ensure that your customers will enter a correct email address, making managing your orders far easier and more reliable. If a customer's email address does not match up then they will receive a standard validation error on the checkout page informing them that they need to make sure that their email addresses are the same.
 
-This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese, Polish, Brazilian Portuguese and Hungarian.
+This extension is WooCommerce 2.x compatible and supports localisation using WPML. It has built-in translations for English, German, Spanish, Dutch, Swedish, Japanese, Polish, Brazilian Portuguese, Hungarian and Serbian.
 
 Want to contribute? [Fork the GitHub repository](https://github.com/hlashbrooke/Woocommerce-Email-Validation).
 
@@ -41,6 +41,10 @@ This plugin adds the email confirmation to the checkout fields and does not affe
 1. The confirm email address field as it is displayed in the Twenty Twelve theme.
 
 == Changelog ==
+
+= 1.2.8 =
+* 2015-05-28
+* [UPDATE] Adding Serbian translation (translation provided by Nebojsa Dolas)
 
 = 1.2.7 =
 * 2015-02-16
@@ -87,5 +91,5 @@ This plugin adds the email confirmation to the checkout fields and does not affe
 
 == Upgrade Notice ==
 
-= 1.2.7 =
-* Adding Hungarian translation (translation provided by Kornel Schwarcz)
+= 1.2.8 =
+* Adding Serbian translation (translation provided by Nebojsa Dolas)
